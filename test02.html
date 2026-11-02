@@ -11,7 +11,15 @@
   <body>
     <a-scene>
       <!-- ① 背景を360度画像にする -->
-      <a-sky src="20261013_022808167_iOS.jpg"></a-sky>
+      <a-sky src="20261013_022808167_iOS-1024.jpg"></a-sky>
+
+      <!-- ② 3Dモデルを配置する -->
+      <a-entity 
+        gltf-model="xxxxx.glb"
+        position="0 0 -1"
+        scale="2 2 2"
+        rotation="0 180 0">
+      </a-entity>
 
      
       <!-- ③ 光源 -->
