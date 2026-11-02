@@ -10,8 +10,12 @@
   </head>
   <body>
     <a-scene>
-      <!-- ① 背景を360度画像にする -->
-      <a-sky src="20261013_022808167.jpg"></a-sky>
+      <a-assets>
+  <img id="background360"
+       src="./20261013_022808167_iOS-1024.jpg">
+</a-assets>
+
+<a-sky src="#background360"></a-sky>
 
       <!-- ② 3Dモデルを配置する -->
       <a-entity 
